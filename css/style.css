@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+body{
+
+background-color: ;
+
+}
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+#effect {
+  width: 100%;
+  height: 100vh;
+  background: url('../images/particlebg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+canvas.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.inparticle{
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  transform: translate(-50%,-50%);
+font-family: cursive;
+font-size: 7em;
+}
+.scrollbtn{
+  position: absolute;
+  display: inline;
+  top: 90%;
+  left: 50%;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-family: cursive;
+    font-size: 5em;
+    
+}
+
+
+
+.main-wrapper{
+    padding: 30px;
+}
+.main-head{
+    margin: 0px;
+}
+.main-head h1{
+    color: darkorange;
+    font-size: 4.5em;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 0.2rem;
+}
+.main-wrapper hr {
+border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+center hr {
+border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+
+        .writeup{
+            font-size: 1.8em;
+            font-weight: 50;
+            font-family: cursive;
+            color: 	black;
+            margin: 30px;
+        }
+        .im{
+            display: flex;
+            justify-content: space-around;
+        }
+       h2, p{
+            margin: 30px;
+            font-size: 1.2em;
+        }
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        height: 16em;
+        background: url('../images/paralax.png');
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    font-size: 4em;
+}
+.o{
+    position: relative;
+}
+.o image{
+    display: block;
+}
+.overlay{
+    position: absolute;
+top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgba(25, 25, 112,0.5);
+}
+.overlay > div{
+    text-align: center;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.text{
+    color: white;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+padding-left: 30px;
+    padding-top: 30px;
+}
+
+.more{
+    height: 300px;
+}
+
+.type{
+    font-size: 5em;
+    font-weight: bold;
+    font-family:cursive;
+    letter-spacing: 4px;
+    color: #ff4b2b;
+}
+
+
